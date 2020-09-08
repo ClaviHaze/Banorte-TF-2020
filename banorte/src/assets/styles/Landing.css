@@ -1,0 +1,61 @@
+.background-landing {
+    background-color: white;
+}
+
+.background-head {
+    background: linear-gradient(90.94deg, #EB002B 0.34%, #EB002B 62.86%, rgba(235, 0, 43, 0) 98.73%);
+}
+
+.is-absolute {
+    position: absolute;
+}
+
+.fill {
+    width: -webkit-fill-available;
+}
+
+.header-text {
+    color: white;
+    margin-right: 30%;
+    font-weight: bold;
+}
+
+.landing-text {
+    color: #850018;
+    padding: 1rem;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.landing-text-image {
+    color: #850018;
+    margin-top: -47%;
+    padding-left: 50%; 
+}
+
+.additional-text {
+    color: black;
+    font-size: 12px;
+    padding-left: 50%;
+}
+
+.landing-text-inverted {
+    color: #850018;
+    margin-top: -75%;
+    padding-right: 45%; 
+}
+
+.additional-text-inverted {
+    color: black;
+    font-size: 12px;
+    padding-right: 47%;
+}
+
+.align-center {
+    padding-top: 1em;
+}
+
+.check-bullets {
+    list-style-image: url("checkmark.svg");
+}
+
