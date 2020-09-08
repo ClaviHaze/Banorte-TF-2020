@@ -10,14 +10,17 @@
     position: absolute;
 }
 
-.fill {
-    width: -webkit-fill-available;
-}
-
 .header-text {
     color: white;
     margin-right: 30%;
-    font-weight: bold;
+}
+
+.has-spacing {
+    padding-right: 7rem;
+}
+
+.fill {
+    min-width: -webkit-fill-available;
 }
 
 .landing-text {
@@ -29,33 +32,24 @@
 
 .landing-text-image {
     color: #850018;
-    margin-top: -47%;
-    padding-left: 50%; 
 }
 
 .additional-text {
     color: black;
-    font-size: 12px;
-    padding-left: 50%;
-}
-
-.landing-text-inverted {
-    color: #850018;
-    margin-top: -75%;
-    padding-right: 45%; 
-}
-
-.additional-text-inverted {
-    color: black;
-    font-size: 12px;
-    padding-right: 47%;
 }
 
 .align-center {
-    padding-top: 1em;
+    display: contents;
 }
 
 .check-bullets {
     list-style-image: url("checkmark.svg");
 }
 
+.help-icon {
+    margin-left: 240%;
+}
+
+.background-footer {
+    background-color: #C4C4C4;
+}
