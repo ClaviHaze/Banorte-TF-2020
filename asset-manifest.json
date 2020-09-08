@@ -1,22 +1,29 @@
 {
   "files": {
-    "main.css": "/Banorte-TF-2020/static/css/main.4b3dd475.chunk.css",
-    "main.js": "/Banorte-TF-2020/static/js/main.062ff98a.chunk.js",
-    "main.js.map": "/Banorte-TF-2020/static/js/main.062ff98a.chunk.js.map",
+    "main.css": "/Banorte-TF-2020/static/css/main.daf8e733.chunk.css",
+    "main.js": "/Banorte-TF-2020/static/js/main.74959de4.chunk.js",
+    "main.js.map": "/Banorte-TF-2020/static/js/main.74959de4.chunk.js.map",
     "runtime-main.js": "/Banorte-TF-2020/static/js/runtime-main.023ac35a.js",
     "runtime-main.js.map": "/Banorte-TF-2020/static/js/runtime-main.023ac35a.js.map",
-    "static/js/2.45c6ef1f.chunk.js": "/Banorte-TF-2020/static/js/2.45c6ef1f.chunk.js",
-    "static/js/2.45c6ef1f.chunk.js.map": "/Banorte-TF-2020/static/js/2.45c6ef1f.chunk.js.map",
+    "static/js/2.77982034.chunk.js": "/Banorte-TF-2020/static/js/2.77982034.chunk.js",
+    "static/js/2.77982034.chunk.js.map": "/Banorte-TF-2020/static/js/2.77982034.chunk.js.map",
     "index.html": "/Banorte-TF-2020/index.html",
-    "precache-manifest.aef1c701b5d2107c516519a1f2d6ffed.js": "/Banorte-TF-2020/precache-manifest.aef1c701b5d2107c516519a1f2d6ffed.js",
+    "precache-manifest.ae5065920eb8ba55b49b9a0e8672eed3.js": "/Banorte-TF-2020/precache-manifest.ae5065920eb8ba55b49b9a0e8672eed3.js",
     "service-worker.js": "/Banorte-TF-2020/service-worker.js",
-    "static/css/main.4b3dd475.chunk.css.map": "/Banorte-TF-2020/static/css/main.4b3dd475.chunk.css.map",
-    "static/js/2.45c6ef1f.chunk.js.LICENSE.txt": "/Banorte-TF-2020/static/js/2.45c6ef1f.chunk.js.LICENSE.txt"
+    "static/css/main.daf8e733.chunk.css.map": "/Banorte-TF-2020/static/css/main.daf8e733.chunk.css.map",
+    "static/js/2.77982034.chunk.js.LICENSE.txt": "/Banorte-TF-2020/static/js/2.77982034.chunk.js.LICENSE.txt",
+    "static/media/beardedman.svg": "/Banorte-TF-2020/static/media/beardedman.3bd8e0c4.svg",
+    "static/media/Landing.css": "/Banorte-TF-2020/static/media/checkmark.1aea897a.svg",
+    "static/media/header_showcase.svg": "/Banorte-TF-2020/static/media/header_showcase.4d7247b2.svg",
+    "static/media/help.svg": "/Banorte-TF-2020/static/media/help.bcba6a54.svg",
+    "static/media/logo.svg": "/Banorte-TF-2020/static/media/logo.18cad636.svg",
+    "static/media/oldman.svg": "/Banorte-TF-2020/static/media/oldman.b77c7fb8.svg",
+    "static/media/relax.svg": "/Banorte-TF-2020/static/media/relax.c622bcaa.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.023ac35a.js",
-    "static/js/2.45c6ef1f.chunk.js",
-    "static/css/main.4b3dd475.chunk.css",
-    "static/js/main.062ff98a.chunk.js"
+    "static/js/2.77982034.chunk.js",
+    "static/css/main.daf8e733.chunk.css",
+    "static/js/main.74959de4.chunk.js"
   ]
 }
