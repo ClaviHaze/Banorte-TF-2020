@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Banorte-TF-2020/precache-manifest.42f8ac5d4dcaeb0cbdd66e3e3de73008.js"
+  "/Banorte-TF-2020/precache-manifest.d972a30cd47cbc86b14048a3b2473aea.js"
 );
 
 self.addEventListener('message', (event) => {

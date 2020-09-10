@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bd58fbaca37a000ec1b286c485db8e1d",
+    "revision": "82318631fa741296e83488e2db877321",
     "url": "/Banorte-TF-2020/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Banorte-TF-2020/static/css/2.69507427.chunk.css"
   },
   {
-    "revision": "87139783175db712dd77",
+    "revision": "b337ae199194da013ac1",
     "url": "/Banorte-TF-2020/static/css/main.2b920568.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Banorte-TF-2020/static/js/2.bc9894ae.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "87139783175db712dd77",
-    "url": "/Banorte-TF-2020/static/js/main.cf981170.chunk.js"
+    "revision": "b337ae199194da013ac1",
+    "url": "/Banorte-TF-2020/static/js/main.4011282a.chunk.js"
   },
   {
     "revision": "b523beffe907832f6de6",
