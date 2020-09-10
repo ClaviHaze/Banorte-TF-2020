@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "../../assets/styles/Main.css";
 import home from "../../assets/images/MainHome.svg"
 import info from "../../assets/images/MainInfo.svg"
@@ -7,13 +7,6 @@ import payments from "../../assets/images/MainPayments.svg"
 import help from "../../assets/images/MainHelp.svg"
 
 function MainNavbar() {
-  useEffect(() => {
-    document.body.className = "has-navbar-fixed-bottom";
-    return () => {
-      document.body.className = "";
-    };
-  });
-
   return (
     <div className="navbar is-fixed-bottom is-primary top-border">
       <div className="field is-group">

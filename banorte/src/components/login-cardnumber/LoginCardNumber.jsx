@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { withRouter } from "react-router-dom";
 import Topnav from '../../components/topnav/Topnav';
 import Steps from '../../components/steps/Steps';
 import LoginPass from '../../components/login-pass/Loginpass';
@@ -69,4 +70,4 @@ function LoginCardNumber({ render, history, loginCardValue }) {
     )
 }
 
-export default LoginCardNumber
+export default withRouter(LoginCardNumber)

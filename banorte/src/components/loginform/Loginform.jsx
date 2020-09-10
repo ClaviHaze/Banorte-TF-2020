@@ -1,11 +1,12 @@
 import React, { useState } from "react";
+import { withRouter } from "react-router-dom";
 import Topnav from '../../components/topnav/Topnav';
 import Steps from '../../components/steps/Steps';
 import LoginCardNumber from '../../components/login-cardnumber/LoginCardNumber';
 import Loginpass from '../../components/login-pass/Loginpass';
 import banlogo from "../../assets/images/logoban.svg";
 
-function Loginform() {
+function Loginform({ history }) {
 
   const loginCardValue = (value) => {
     setLoginCard(value);
@@ -49,4 +50,4 @@ function Loginform() {
       </>
     )
     }
-export default Loginform
+export default withRouter(Loginform)
