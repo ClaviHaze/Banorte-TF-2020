@@ -1,27 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8ad223eafe8dcabd3973c1a61f9949f0",
+    "revision": "420ea2ace365005e979c5624f2206a56",
     "url": "/Banorte-TF-2020/index.html"
   },
   {
-    "revision": "98e806cc7ea2493c93ec",
-    "url": "/Banorte-TF-2020/static/css/main.daf8e733.chunk.css"
+    "revision": "0bbd7d5564bda98f2e5b",
+    "url": "/Banorte-TF-2020/static/css/2.69507427.chunk.css"
   },
   {
-    "revision": "1178c356f5589c44a46c",
-    "url": "/Banorte-TF-2020/static/js/2.77982034.chunk.js"
+    "revision": "6feca27d026d04a91bfe",
+    "url": "/Banorte-TF-2020/static/css/main.4578aec0.chunk.css"
   },
   {
-    "revision": "bbee919d8888a17953b5bb98359759ba",
-    "url": "/Banorte-TF-2020/static/js/2.77982034.chunk.js.LICENSE.txt"
+    "revision": "0bbd7d5564bda98f2e5b",
+    "url": "/Banorte-TF-2020/static/js/2.953507e6.chunk.js"
   },
   {
-    "revision": "98e806cc7ea2493c93ec",
-    "url": "/Banorte-TF-2020/static/js/main.74959de4.chunk.js"
+    "revision": "d56f7d70e49a582c3cb88e84fa36367e",
+    "url": "/Banorte-TF-2020/static/js/2.953507e6.chunk.js.LICENSE.txt"
+  },
+  {
+    "revision": "6feca27d026d04a91bfe",
+    "url": "/Banorte-TF-2020/static/js/main.4e5869d9.chunk.js"
   },
   {
     "revision": "b523beffe907832f6de6",
     "url": "/Banorte-TF-2020/static/js/runtime-main.023ac35a.js"
+  },
+  {
+    "revision": "8508762603bdd139f9aab971dbf4bd2a",
+    "url": "/Banorte-TF-2020/static/media/appleshare.85087626.png"
+  },
+  {
+    "revision": "62336c145ba8c2712b9ad55fb0420df0",
+    "url": "/Banorte-TF-2020/static/media/banorte-logo.62336c14.svg"
   },
   {
     "revision": "3bd8e0c4a4e4ca86003a3dd789d265a6",
@@ -42,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "18cad63664648b00a1d70641ada75b48",
     "url": "/Banorte-TF-2020/static/media/logo.18cad636.svg"
+  },
+  {
+    "revision": "fed1be773e35aea550fc1fedebbf977f",
+    "url": "/Banorte-TF-2020/static/media/logoban.fed1be77.svg"
   },
   {
     "revision": "b77c7fb8723813d364682b1332a4b78e",
