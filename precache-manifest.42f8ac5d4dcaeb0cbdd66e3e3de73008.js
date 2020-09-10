@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bd14487b2805c0acb13b5986d4067437",
+    "revision": "bd58fbaca37a000ec1b286c485db8e1d",
     "url": "/Banorte-TF-2020/index.html"
   },
   {
-    "revision": "547dbba431c195300cd5",
+    "revision": "9c9e209063a1e847e5a1",
     "url": "/Banorte-TF-2020/static/css/2.69507427.chunk.css"
   },
   {
-    "revision": "6518b6788ad0458fe496",
-    "url": "/Banorte-TF-2020/static/css/main.ff4de339.chunk.css"
+    "revision": "87139783175db712dd77",
+    "url": "/Banorte-TF-2020/static/css/main.2b920568.chunk.css"
   },
   {
-    "revision": "547dbba431c195300cd5",
-    "url": "/Banorte-TF-2020/static/js/2.81dbc44c.chunk.js"
+    "revision": "9c9e209063a1e847e5a1",
+    "url": "/Banorte-TF-2020/static/js/2.bc9894ae.chunk.js"
   },
   {
     "revision": "d56f7d70e49a582c3cb88e84fa36367e",
-    "url": "/Banorte-TF-2020/static/js/2.81dbc44c.chunk.js.LICENSE.txt"
+    "url": "/Banorte-TF-2020/static/js/2.bc9894ae.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6518b6788ad0458fe496",
-    "url": "/Banorte-TF-2020/static/js/main.023e7558.chunk.js"
+    "revision": "87139783175db712dd77",
+    "url": "/Banorte-TF-2020/static/js/main.cf981170.chunk.js"
   },
   {
     "revision": "b523beffe907832f6de6",
