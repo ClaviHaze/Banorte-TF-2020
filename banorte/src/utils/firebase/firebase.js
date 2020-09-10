@@ -20,4 +20,4 @@ import "firebase/storage";
   const auth = app.auth();
   const storage = app.storage();
 
-  export { db, auth, app, storage };
+  export default { db, auth, app, storage };

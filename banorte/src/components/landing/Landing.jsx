@@ -1,4 +1,5 @@
 import React from "react";
+import { withRouter } from "react-router-dom";
 import useIosInstallPrompt from "../../hooks/useIosInstallPrompt";
 import Modal from "../modal/Modal";
 import logo from "../../assets/images/logo.svg";
@@ -7,25 +8,38 @@ import oldman from "../../assets/images/oldman.svg";
 import beardedman from "../../assets/images/beardedman.svg";
 import relax from "../../assets/images/relax.svg";
 import help from "../../assets/images/help.svg";
+import banorte from "../../assets/images/banorte-logo.svg";
 import "../../assets/styles/Landing.css";
 
 function Landing({ history }) {
   const { prompt } = useIosInstallPrompt();
+
+  const onBoarding = () => {
+    // if (prompt = true) {
+    //   <Modal prompt={prompt}></Modal>
+    // } else {
+      history.push("/Onboarding")
+    }
+  // }
+
   return (
     <div className="background-landing">
-      {prompt && <Modal prompt={prompt} />}
       <div className="is-relative">
         <section className="column is-absolute">
           <img alt="banorte header" width="180vw" src={logo} />
           <h3 className="header-text has-spacing has-text-weight-light my-2">
             Todas tus operaciones, un solo click
           </h3>
-          <button className="button is-danger">COMENCEMOS</button>
+          <button 
+          className="button is-danger"
+          onClick={() => onBoarding()}
+          >COMENCEMOS</button>
         </section>
         <section>
           <img alt="girl with computer" className="fill" src={headershowcase} />
         </section>
       </div>
+      {/* {!prompt && <Modal prompt={prompt} />} */}
       <section>
         <h3 className="landing-text has-text-left has-text-weight-bold">
           Ve al banco en la comodidad de tu hogar
@@ -91,22 +105,52 @@ function Landing({ history }) {
         </div>
       </section>
       <section className="file is-centered">
-        <button className="button is-danger">HAZTE DIGITAL</button>
+        <button 
+        className="button is-danger"
+        onClick={() => onBoarding()}
+        >HAZTE DIGITAL</button>
         <div className="mt-4 mr-0">
           <img alt="ayuda" className="help-icon" src={help} />
         </div>
       </section>
-      <section className="background-footer">
-        <div className="buttons">
-          <button className="button">
-            <span className="icon is-medium">
-              <i className="fab fa-facebook-square"></i>
+      <section className="background-footer columns is-mobile">
+        <div className="column">
+          <img 
+          className=""
+          alt="logo banorte en rojo"
+          src={banorte}
+          />
+          <p><a className="footer-text" href="#">Nuestro banco</a></p>
+          <p><a className="footer-text" href="#">Asistencia</a></p>
+          <p><a className="footer-text" href="#">Legal</a></p>
+        </div>
+        <div className="buttons file is-right column">
+          <div className="buttons-social background-footer">
+          <a href="https://www.facebook.com/banorte" target="_blank">
+          <span className="icon is-medium fa-social">
+            <i className="fab fa-facebook"></i>
             </span>
-          </button>
+            </a>
+            <a href="https://twitter.com/Banorte_mx" target="_blank">
+            <span className="icon is-medium fa-social">
+            <i className="fab fa-twitter-square"></i>
+            </span>
+            </a>
+            <a href="https://www.instagram.com/banorte_mx/" target="_blank">
+            <span className="icon is-medium fa-social">
+            <i className="fab fa-instagram"></i>
+            </span>
+            </a>
+            <a href="https://www.youtube.com/user/banortemovil/" target="_blank">
+            <span className="icon is-medium fa-social">
+            <i className="fab fa-youtube-square"></i>
+            </span>
+            </a>
+          </div>
         </div>
       </section>
     </div>
   );
 }
 
-export default Landing;
+export default withRouter(Landing)

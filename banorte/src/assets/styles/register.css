@@ -1,0 +1,43 @@
+.fa-red {
+    color: #EB0029!important;
+}
+
+.is-pink {
+    color: #FF99AC;
+}
+
+.banlogo {
+    margin-top: 5%;
+    width: 16rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: baseline;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.is-halfwidth {
+    display: flex;
+    width: 50%;
+}
+
+.onboarding-title {
+    margin-top: 3%;
+}
+
+.input-form {
+    margin-top: 20%;
+}
+
+.button-form {
+    margin-top: 7%;
+}
+
+.steps-form {
+    margin-top: 35%;
+}

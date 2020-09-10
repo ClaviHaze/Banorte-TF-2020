@@ -1,16 +1,20 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
+import { useModal } from '../../hooks/useModal';
+import appleshare from '../../assets/images/appleshare.png';
+import '../../assets/styles/Modal.css';
 
 function Modal({ prompt }) {
-  const [modalOpen, setModalOpen] = useState(false);
-  // console.log(prompt,"holi");
+  const [modalOpen, setModalOpen, toggleModal] = useModal();
 
-  useEffect( () => {
-    setModalOpen(true);
-  }, [])
-  // console.log(prompt, "pipo 3000")
+  // useEffect( () => {
+  //   setModalOpen(true);
+  // }, [])
+
+
   return (
-    <div className={`modal ${modalOpen === true ? "is-active" : ""} `}>
+    // <div isActive={modalOpen}>
+    <div isActive={modalOpen}>
       <div className="modal-background"></div>
       <div className="modal-content">
         <div className="box">
@@ -22,13 +26,21 @@ function Modal({ prompt }) {
                   images, buttons etc. here.
                 </p>
               </div>
+              <div className="file is-centered">
+              <img 
+              src={appleshare}
+              alt="Agregar a pantalla principal"
+              className="apple-share-logo"
+              />
               <button
                 className="button is-danger is-small"
                 id="closebtn"
-                // onClick={handleIOSInstallDeclined}
+                onClick={() => setModalOpen(false)}
+                // {console.log()setModalOpen(false), 'aqui nomas para ver'}
               >
-                Close Modal
+                Cerrar
               </button>
+              </div>
             </div>
           </article>
         </div>

@@ -53,3 +53,14 @@
 .background-footer {
     background-color: #C4C4C4;
 }
+
+.footer-text {
+    color: #850018;
+}
+
+.fa-social {
+    color: #850018!important;
+}
+.buttons-social {
+    margin-top: -43%;
+}

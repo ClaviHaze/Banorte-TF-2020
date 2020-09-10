@@ -1,11 +1,19 @@
 import React from 'react'
+import { withRouter } from "react-router-dom";
+import Item from '../item/Item';
+import Topnav from '../topnav/Topnav';
+import Steps from '../steps/Steps';
+// import '../../assets/styles/Onboarding';
+
 
 function Onboarding() {
     return (
-        <div>
-            <h1>Aquí va todo el choro mariador del onboarding</h1>
+        <div className="">
+            <Topnav />
+            <Item />
+            <Steps />
         </div>
     )
 }
 
-export default Onboarding
+export default withRouter(Onboarding)
