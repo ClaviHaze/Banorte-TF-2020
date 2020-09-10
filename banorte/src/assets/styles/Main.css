@@ -1,5 +1,53 @@
 .main-background {
-    background-image: url("https://i.ibb.co/7GdpjKp/Group-113.png");
-    padding: 100%;
+    background-image: url("mainbg.svg");
+    height: 100vh;
     background-repeat: no-repeat;
+    display: flex;
+    flex-flow: column;
+    background-size: cover;
+    margin-top: -1%;
+}
+
+.top-border {
+    border-top-color: #FF99AC;
+    border-top-width: 1px;
+}
+
+.fa-darkred {
+    color: #A3001E!important;
+}
+
+.is-group {
+    justify-content: space-around;
+    display: flex;
+}
+
+.nav-btn {
+    background-color: #A3001E;
+    border: 0;
+}
+
+.custom-top {
+    top:0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: 30;
+    background-color: #9c001c;
+    color: #fff;
+    display:flex;
+    justify-content: space-between;
+}
+
+.custom-navfix {
+    padding-top: 2.25rem;
+    padding-bottom: 3.25rem;
+}
+
+.logo-ban {
+    padding: 3%;
+}
+
+.white {
+    color: white;
 }

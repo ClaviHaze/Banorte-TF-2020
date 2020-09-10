@@ -2,6 +2,42 @@
     height: 10%;
     width: 10%;
 }
-/* .box-modal {
+.modal-pass {
+    margin-top: 50%;
+    border-radius: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 10%;
+}
 
-} */
+.modal-text {
+    color: #717171;
+    font-size: 150%;
+}
+
+.modal-paragraph {
+    margin-top: 3%;
+    text-align: center;
+}
+
+.cancel-button {
+    margin-top: 3%;
+}
+
+.modal-badgereg{
+    margin-top: 20%;
+    margin-right: 6%;
+    margin-left: 6%;
+    padding-top: 30%;
+    padding-bottom: 30%;
+}
+
+.title-badge {
+    color: #717171;
+    text-align: center;
+}
+
+.text-badge {
+    color: #EB002B;
+    text-align: center;
+}

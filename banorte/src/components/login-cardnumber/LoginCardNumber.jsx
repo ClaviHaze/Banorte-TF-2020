@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Topnav from '../../components/topnav/Topnav';
 import Steps from '../../components/steps/Steps';
 import LoginPass from '../../components/login-pass/Loginpass';
@@ -6,13 +6,15 @@ import MaskInput from "react-maskinput";
 import banlogo from "../../assets/images/logoban.svg";
 import '../../assets/styles/login.css';
 
-function LoginCardNumber({ render, history, setLoginCard}) {
+function LoginCardNumber({ render, history, loginCardValue }) {
+  const[loginCardDummy, setLoginCardNumber] = useState('');
+  loginCardValue(loginCardDummy);
 
     const handleClick = () => {
         render(<LoginPass />);
       }
     const register = () => {
-        history.push("/Registerform")
+        history.push("/Register")
     }
 
     return (
@@ -35,7 +37,7 @@ function LoginCardNumber({ render, history, setLoginCard}) {
               mask="0000-0000-0000-0000"
               size={20}
               className="input"
-              onChange={e => setLoginCard(e.target.value)}
+              onChange={e => setLoginCardNumber(e.target.value)}
             />
             <span className="icon is-small is-right fa-red">
               <i className="fas fa-question-circle"></i>

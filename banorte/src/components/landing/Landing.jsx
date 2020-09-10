@@ -1,7 +1,7 @@
 import React from "react";
 import { withRouter } from "react-router-dom";
 import useIosInstallPrompt from "../../hooks/useIosInstallPrompt";
-import Modal from "../modal/Modal";
+// import Modal from "../modal/Modal";
 import logo from "../../assets/images/logo.svg";
 import headershowcase from "../../assets/images/header_showcase.svg";
 import oldman from "../../assets/images/oldman.svg";
@@ -18,7 +18,7 @@ function Landing({ history }) {
     // if (prompt = true) {
     //   <Modal prompt={prompt}></Modal>
     // } else {
-      history.push("/Onboarding")
+      history.push("/loginform")
     }
   // }
 

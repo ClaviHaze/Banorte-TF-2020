@@ -1,13 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react';
+import { withRouter } from "react-router-dom";
 import MaskInput from "react-maskinput";
 
-function Loginpass({ render, history, setLoginPass }) {
-
-    // const handleClick = () => {
-    //     render(<LoginPass />);
-    //   }
+function Loginpass({ render, history, loginPassValue }) {
+  const [loginPassDumy, setLoginPassDummy] = useState('')
+  loginPassValue(loginPassValue)
     const register = () => {
-        history.push("/Registerform")
+        history.push("/Register")
+    }
+    const main = () => {
+      history.push("/Main");
     }
 
     return (
@@ -25,12 +27,11 @@ function Loginpass({ render, history, setLoginPass }) {
         <div className="field input-form">
           <label className="label is-size-6">Contraseña</label>
           <div className="control has-icons-right">
-            <MaskInput
-              maskChar="_"
-              mask="0000-0000-0000-0000"
-              size={20}
+            <input
               className="input"
-              onChange={e => setLoginPass(e.target.value)}
+              type="password"
+              placeholder="xxxxxx"
+              onChange={e => setLoginPassDummy(e.target.value)}
             />
             <span className="icon is-small is-right fa-red">
               <i className="fas fa-question-circle"></i>
@@ -40,7 +41,7 @@ function Loginpass({ render, history, setLoginPass }) {
             <div className="file is-centered is-rounded">
               <button 
               className="button is-halfwidth is-danger is-outlined button-login"
-            //   onClick={handleClick}
+              onClick={main}
               >
                 Entrar
               </button>
@@ -62,4 +63,4 @@ function Loginpass({ render, history, setLoginPass }) {
     )
 }
 
-export default Loginpass
+export default withRouter(Loginpass)

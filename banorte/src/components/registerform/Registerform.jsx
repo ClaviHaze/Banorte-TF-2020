@@ -7,7 +7,6 @@ import RegEmail from "../regemail/RegEmail";
 import RegPass from "../regpass/RegPass";
 import app from "../../utils/firebase/firebase";
 import db from "../../utils/firebase/firebase";
-// import { auth, app, db } from '../../utils/firebase/firebase';
 import Steps from "../steps/Steps";
 import banlogo from "../../assets/images/logoban.svg";
 import "../../assets/styles/register.css";
@@ -31,6 +30,7 @@ function Registerform({ history }) {
   const [email, setEmail] = useState("example@mail.com");
   const [pass, setPass] = useState("password");
   const [error, setError] = useState(null);
+  console.log(card, 'holi veinte');
 
 const rendering = (next) => {
     switch (next) {
@@ -44,7 +44,9 @@ const rendering = (next) => {
           setRender(<RegPass
             rendering={rendering}
             passValue={passValue}
-            signUp={signUp}
+            // signUp={signUp}
+            // email={email}
+            // card={card}
             />)
           break;
       default:
